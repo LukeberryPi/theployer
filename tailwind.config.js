@@ -9,9 +9,7 @@ module.exports = {
     extend: {
       colors: {
         berryBlue: "#79CBE3",
-        offBlack: "#080808",
-        weirdWhite: "#E6F4F1",
-        otherBlue: "#005065",
+        pinkPlus: "#AD82C2",
       },
     },
   },

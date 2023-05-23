@@ -39,12 +39,14 @@ export default function RootLayout({
               <span className="text-berryBlue">Today at 2PM</span>
             </li>
             <li className="flex items-center gap-10">
-              <a href="#">Login</a>
+              <a className="hover:underline underline-offset-4" href="#">
+                Login
+              </a>
               <a
-                className="border border-berryBlue text-berryBlue py-2 px-4"
+                className="border hover:bg-pinkPlus border-pinkPlus hover:text-black transition-colors text-pinkPlus py-2 px-4"
                 href="#"
               >
-                Sign Up
+                Sign up
               </a>
             </li>
           </ul>
@@ -59,8 +61,7 @@ export default function RootLayout({
               className="text-berryBlue"
             >
               @LukeberryPi
-            </Link>{" "}
-            / 2023
+            </Link>
           </p>
         </footer>
       </body>
