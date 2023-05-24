@@ -7,7 +7,7 @@ export default function Home() {
         id="hero-banner"
         className="border-b border-zinc-800 flex flex-col gap-10 items-center justify-center py-36"
       >
-        <h1 className="text-6xl font-medium text-white">
+        <h1 className="text-6xl font-bold text-white">
           Deployment documentation
           <span className="text-berryBlue"> made effortless</span>
         </h1>
