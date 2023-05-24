@@ -11,7 +11,7 @@ export default function Home() {
           Deployment documentation
           <span className="text-berryBlue"> made effortless</span>
         </h1>
-        <h3 className="-mt-2 text-2xl text-zinc-400 px-48">
+        <h3 className="text-2xl text-zinc-400 px-48">
           Streamline your processes, enhance collaboration, and ensure seamless
           deployments with our
           <strong className="text-zinc-200"> intuitive tools</strong> and
@@ -37,7 +37,7 @@ export default function Home() {
         className="border-b border-zinc-800 flex flex-col gap-10 items-center justify-center py-36"
       >
         <h2 className="text-6xl font-medium text-white">Benefits</h2>
-        <h3 className="-mt-2 text-2xl text-zinc-400 px-48">
+        <h3 className="text-2xl text-zinc-400 px-48">
           Streamline your processes, enhance collaboration, and ensure seamless{" "}
           deployments with our intuitive tools and user-friendly interface.
         </h3>
@@ -47,7 +47,7 @@ export default function Home() {
         className="border-b border-zinc-800 flex flex-col gap-10 items-center justify-center py-36"
       >
         <h2 className="text-6xl font-medium text-white">Resources</h2>
-        <h3 className="-mt-2 text-2xl text-zinc-400 px-48">
+        <h3 className="text-2xl text-zinc-400 px-48">
           Streamline your processes, enhance collaboration, and ensure seamless{" "}
           deployments with our intuitive tools and user-friendly interface.
         </h3>
@@ -57,7 +57,7 @@ export default function Home() {
         className="border-b border-zinc-800 flex flex-col gap-10 items-center justify-center py-36"
       >
         <h2 className="text-6xl font-medium text-white">Upgrade</h2>
-        <h3 className="-mt-2 text-2xl text-zinc-400 px-48">
+        <h3 className="text-2xl text-zinc-400 px-48">
           Streamline your processes, enhance collaboration, and ensure seamless{" "}
           deployments with our intuitive tools and user-friendly interface.
         </h3>
@@ -67,7 +67,7 @@ export default function Home() {
         className="flex flex-col gap-10 items-center justify-center py-36"
       >
         <h2 className="text-6xl font-medium text-white">FAQ</h2>
-        <h3 className="-mt-2 text-2xl text-zinc-400 px-48">
+        <h3 className="text-2xl text-zinc-400 px-48">
           Streamline your processes, enhance collaboration, and ensure seamless{" "}
           deployments with our intuitive tools and user-friendly interface.
         </h3>
