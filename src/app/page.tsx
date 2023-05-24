@@ -54,6 +54,17 @@ export default function Home() {
         </h3>
       </section>
       <section
+        id="upgrade"
+        className="border-b border-zinc-800 flex flex-col gap-10 items-center justify-center py-36"
+      >
+        <h2 className="text-6xl font-medium text-white">Upgrade</h2>
+        <h3 className="-mt-2 text-2xl text-zinc-400">
+          Streamline your processes, enhance collaboration, and ensure seamless{" "}
+          <br />
+          deployments with our intuitive tools and user-friendly interface.
+        </h3>
+      </section>
+      <section
         id="faq"
         className="flex flex-col gap-10 items-center justify-center py-36"
       >

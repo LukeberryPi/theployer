@@ -48,7 +48,7 @@ export default function RootLayout({
           </ul>
         </nav>
         {children}
-        <footer className="flex items-center bg-zinc-950 w-full bottom-0 py-5 justify-center">
+        <footer className="border-t border-zinc-800 flex items-center bg-zinc-950 w-full bottom-0 py-5 justify-center">
           <p>
             Created by{" "}
             <Link
@@ -58,6 +58,7 @@ export default function RootLayout({
             >
               @LukeberryPi
             </Link>
+            , All rights Reserved
           </p>
         </footer>
       </body>
