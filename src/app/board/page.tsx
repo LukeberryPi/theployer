@@ -8,13 +8,13 @@ export default function Board() {
           </h1>
           <ul className="text-left space-y-6 flex flex-col w-full justify-center items-center">
             <li className="flex justify-left w-full">
-              <input className="bg-zinc-950 border-zinc-600 border w-full h-full p-5" />
+              <input className="bg-zinc-950 border-zinc-700 border w-full h-full p-5" />
             </li>
             <li className="flex justify-left w-full">
-              <input className="bg-zinc-950 border-zinc-600 border w-full h-full p-5" />
+              <input className="bg-zinc-950 border-zinc-700 border w-full h-full p-5" />
             </li>
             <li className="flex justify-left w-full">
-              <input className="bg-zinc-950 border-zinc-600 border w-full h-full p-5" />
+              <input className="bg-zinc-950 border-zinc-700 border w-full h-full p-5" />
             </li>
           </ul>
         </div>
@@ -24,13 +24,13 @@ export default function Board() {
           </h1>
           <ul className="space-y-6 flex flex-col w-full justify-center items-center">
             <li className="flex justify-left w-full">
-              <input className="bg-zinc-950 border-zinc-600 border w-full h-full p-5" />
+              <input className="bg-zinc-950 border-zinc-700 border w-full h-full p-5" />
             </li>
             <li className="flex justify-left w-full">
-              <input className="bg-zinc-950 border-zinc-600 border w-full h-full p-5" />
+              <input className="bg-zinc-950 border-zinc-700 border w-full h-full p-5" />
             </li>
             <li className="flex justify-left w-full">
-              <input className="bg-zinc-950 border-zinc-600 border w-full h-full p-5" />
+              <input className="bg-zinc-950 border-zinc-700 border w-full h-full p-5" />
             </li>
           </ul>
         </div>
@@ -40,13 +40,13 @@ export default function Board() {
           </h1>
           <ul className="text-left space-y-6 flex flex-col w-full justify-center items-center">
             <li className="flex justify-left w-full">
-              <input className="bg-zinc-950 border-zinc-600 border w-full h-full p-5" />
+              <input className="bg-zinc-950 border-zinc-700 border w-full h-full p-5" />
             </li>
             <li className="flex justify-left w-full">
-              <input className="bg-zinc-950 border-zinc-600 border w-full h-full p-5" />
+              <input className="bg-zinc-950 border-zinc-700 border w-full h-full p-5" />
             </li>
             <li className="flex justify-left w-full">
-              <input className="bg-zinc-950 border-zinc-600 border w-full h-full p-5" />
+              <input className="bg-zinc-950 border-zinc-700 border w-full h-full p-5" />
             </li>
           </ul>
         </div>
@@ -56,13 +56,13 @@ export default function Board() {
           </h1>
           <ul className="text-left space-y-6 flex flex-col w-full justify-center items-center">
             <li className="flex justify-left w-full">
-              <input className="bg-zinc-950 border-zinc-600 border w-full h-full p-5" />
+              <input className="bg-zinc-950 border-zinc-700 border w-full h-full p-5" />
             </li>
             <li className="flex justify-left w-full">
-              <input className="bg-zinc-950 border-zinc-600 border w-full h-full p-5" />
+              <input className="bg-zinc-950 border-zinc-700 border w-full h-full p-5" />
             </li>
             <li className="flex justify-left w-full">
-              <input className="bg-zinc-950 border-zinc-600 border w-full h-full p-5" />
+              <input className="bg-zinc-950 border-zinc-700 border w-full h-full p-5" />
             </li>
           </ul>
         </div>

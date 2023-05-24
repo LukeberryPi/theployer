@@ -20,10 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`bg-zinc-950 text-white ${dmSans.className}`}>
-        <nav className="text-white fixed top-0 text-lg bg-zinc-950 w-full px-6 py-4">
+      <body className={`bg-zinc-950 text-zinc-100 ${dmSans.className}`}>
+        <nav className="text-white fixed top-0 text-lg bg-zinc-950 w-full px-6 py-4 border-b border-zinc-900">
           <ul className="flex w-full items-center justify-between">
-            <li className="transition-all hover:scale-105">
+            <li className="transition-all active:translate-y-1">
               <Link href="/" className="flex gap-4 items-center">
                 <Image
                   width={40}
@@ -39,7 +39,7 @@ export default function RootLayout({
                 Login
               </a>
               <a
-                className="transition-colors border hover:bg-berryBlue border-berryBlue hover:text-black text-berryBlue py-2 px-4"
+                className="transition-all active:translate-y-1 border hover:bg-berryBlue border-berryBlue hover:text-black text-berryBlue py-2 px-4"
                 href="#"
               >
                 Sign up
@@ -48,7 +48,7 @@ export default function RootLayout({
           </ul>
         </nav>
         {children}
-        <footer className="flex items-center fixed w-full bottom-0 py-5 justify-center">
+        <footer className="flex items-center bg-zinc-950 w-full bottom-0 py-5 justify-center">
           <p>
             Created by{" "}
             <Link
