@@ -23,7 +23,7 @@ export default function RootLayout({
       <body className={`bg-zinc-950 text-white ${dmSans.className}`}>
         <nav className="text-white fixed top-0 text-lg bg-zinc-950 w-full px-6 py-4">
           <ul className="flex w-full items-center justify-between">
-            <li>
+            <li className="transition-all hover:scale-105">
               <Link href="/" className="flex gap-4 items-center">
                 <Image
                   width={40}
@@ -34,16 +34,12 @@ export default function RootLayout({
                 <h1 className="text-2xl font-bold">theployer.com</h1>
               </Link>
             </li>
-            <li>
-              Your next deploy is{" "}
-              <span className="text-berryBlue">Today at 2PM</span>
-            </li>
             <li className="flex items-center gap-10">
               <a className="hover:underline underline-offset-4" href="#">
                 Login
               </a>
               <a
-                className="border hover:bg-pinkPlus border-pinkPlus hover:text-black transition-colors text-pinkPlus py-2 px-4"
+                className="transition-colors border hover:bg-berryBlue border-berryBlue hover:text-black text-berryBlue py-2 px-4"
                 href="#"
               >
                 Sign up
