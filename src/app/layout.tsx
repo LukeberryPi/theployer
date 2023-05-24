@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`bg-zinc-950 text-zinc-100 ${dmSans.className}`}>
-        <nav className="text-white fixed top-0 text-lg bg-zinc-950 w-full px-6 py-4 border-b border-zinc-900">
+        <nav className="text-white fixed top-0 text-lg bg-zinc-950 w-full px-6 py-4 border-b border-zinc-800">
           <ul className="flex w-full items-center justify-between">
             <li className="transition-all active:translate-y-1">
               <Link href="/" className="flex gap-4 items-center">
@@ -42,7 +42,7 @@ export default function RootLayout({
                 className="transition-all active:translate-y-1 border hover:bg-berryBlue border-berryBlue hover:text-black text-berryBlue py-2 px-4"
                 href="#"
               >
-                Sign up
+                Sign Up
               </a>
             </li>
           </ul>
