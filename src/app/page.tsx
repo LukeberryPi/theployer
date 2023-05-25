@@ -64,13 +64,35 @@ export default function Home() {
       </section>
       <section
         id="faq"
-        className="flex flex-col gap-10 items-center justify-center py-36"
+        className="flex flex-col gap-10 py-36"
       >
         <h2 className="text-6xl font-medium text-white">FAQ</h2>
-        <h3 className="text-2xl text-zinc-400 px-48">
-          Streamline your processes, enhance collaboration, and ensure seamless{" "}
-          deployments with our intuitive tools and user-friendly interface.
-        </h3>
+        <details className="flex gap-10 justify-start text-left">
+          <summary className="cursor-pointer text-2xl">How does the details-tag work?</summary>
+          <p className="text-zinc-400 text-lg mt-4">
+            The details tag works as an interactive widget that hides / shows
+            content.
+          </p>
+        </details>
+        <details className="flex gap-10 justify-start text-left">
+          <summary className="cursor-pointer text-2xl">How does the summary-tag work?</summary>
+          <p className="text-zinc-400 text-lg mt-4">
+            The summary tag works as the heading of the details tag. The summary
+            will always be shown and can be clicked to show or hide the other
+            content of the details-tag
+          </p>
+        </details>
+        <details className="flex gap-10 justify-start text-left">
+          <summary className="cursor-pointer text-2xl">What content can I put in the details-tag?</summary>
+          <p className="text-zinc-400 text-lg mt-4">
+            You can put any content you want inside of the details-tag, though
+            the summary-tag should be the first child.
+          </p>
+        </details>
+        <details className="flex gap-10 justify-start text-left">
+          <summary className="cursor-pointer text-2xl">Can I have a details-tag open by default?</summary>
+          <p className="text-zinc-400 text-lg mt-4">Yes you can, simply add the open attribute to the details-tag</p>
+        </details>
       </section>
     </main>
   );
