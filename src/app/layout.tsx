@@ -49,17 +49,7 @@ export default function RootLayout({
         </nav>
         {children}
         <footer className="border-t border-zinc-800 flex items-center bg-zinc-950 w-full bottom-0 py-5 justify-center">
-          <p>
-            Created by{" "}
-            <Link
-              href="https://twitter.com/LukeberryPi"
-              target="_blank"
-              className="text-berryBlue"
-            >
-              @LukeberryPi
-            </Link>
-            , All rights Reserved
-          </p>
+          <p>© 2023 LukeberryPi, All rights reserved.</p>
         </footer>
       </body>
     </html>

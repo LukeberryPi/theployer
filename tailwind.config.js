@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       colors: {
         berryBlue: "#79CBE3",
-        pinkPlus: "#AD82C2",
+        purplePlus: "#C679E3",
       },
     },
   },
